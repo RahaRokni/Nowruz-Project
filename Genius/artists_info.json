@@ -1,0 +1,134 @@
+{
+  "dani" : {
+    "age" : 12,
+    "password" : "1234!Asdf",
+    "email" : "test@test.com",
+    "username" : "dani",
+    "name" : "dani",
+    "songsCount" : 2,
+    "albumsCount" : 1,
+    "followersCount" : 2,
+    "singles" : [ "dfetryukjnbvcxfdetrytj (lkjhg)" ],
+    "albums" : [ ],
+    "totalStreams" : 0,
+    "albumDetails" : [ {
+      "title" : "haha",
+      "genre" : "pop",
+      "tracks" : [ {
+        "title" : "haha1",
+        "lyrics" : "jhgfdfghjklm\n",
+        "genre" : "pop",
+        "releaseDate" : "123",
+        "comments" : [ {
+          "username" : "zaza",
+          "commentText" : "haha2",
+          "date" : [ 2025, 4, 16, 17, 34, 21, 186936291 ],
+          "formattedDate" : "2025-04-16 17:34"
+        }, {
+          "username" : "zaza",
+          "commentText" : "haha3",
+          "date" : [ 2025, 4, 16, 17, 34, 21, 186858670 ],
+          "formattedDate" : "2025-04-16 17:34"
+        } ]
+      } ]
+    } ],
+    "singleDetails" : [ {
+      "title" : "dfetryukjnbvcxfdetrytj",
+      "lyrics" : "fgdtryuijkhnbvfgtryu7iuhjghuyiuo\nlkjhgftyu7ijbnjklkl\n",
+      "genre" : "lkjhg",
+      "releaseDate" : "lkjh",
+      "comments" : [ ]
+    } ]
+  },
+  "zari" : {
+    "age" : 12,
+    "password" : "1234!Asdf",
+    "email" : "test@test.com",
+    "username" : "zari",
+    "name" : "zari",
+    "songsCount" : 1,
+    "albumsCount" : 1,
+    "followersCount" : 0,
+    "singles" : [ ],
+    "albums" : [ ],
+    "totalStreams" : 0,
+    "albumDetails" : [ {
+      "title" : "raha",
+      "genre" : "pop",
+      "tracks" : [ {
+        "title" : "raha1",
+        "lyrics" : "rahaaaaa\n",
+        "genre" : "pop",
+        "releaseDate" : "12",
+        "comments" : [ {
+          "username" : "zaza",
+          "commentText" : "lkjhg",
+          "date" : [ 2025, 4, 5, 19, 18, 34, 336799741 ],
+          "formattedDate" : "2025-04-05 19:18"
+        }, {
+          "username" : "zaza",
+          "commentText" : "kkkllll",
+          "date" : [ 2025, 4, 5, 19, 18, 34, 336766677 ],
+          "formattedDate" : "2025-04-05 19:18"
+        }, {
+          "username" : "zaza",
+          "commentText" : "123456 tashakor",
+          "date" : [ 2025, 4, 5, 19, 18, 34, 336749172 ],
+          "formattedDate" : "2025-04-05 19:18"
+        }, {
+          "username" : "zaza",
+          "commentText" : "raga",
+          "date" : [ 2025, 4, 5, 19, 18, 34, 336730338 ],
+          "formattedDate" : "2025-04-05 19:18"
+        }, {
+          "username" : "zaza",
+          "commentText" : "ssssss",
+          "date" : [ 2025, 4, 5, 19, 18, 34, 336709743 ],
+          "formattedDate" : "2025-04-05 19:18"
+        }, {
+          "username" : "zaza",
+          "commentText" : "kjhgfhjk",
+          "date" : [ 2025, 4, 5, 19, 18, 34, 336678441 ],
+          "formattedDate" : "2025-04-05 19:18"
+        } ]
+      } ]
+    } ],
+    "singleDetails" : [ ]
+  },
+  "yaya" : {
+    "age" : 12,
+    "password" : "1234!Asdf",
+    "email" : "test@test.com",
+    "username" : "yaya",
+    "name" : "yaya",
+    "songsCount" : 1,
+    "albumsCount" : 0,
+    "followersCount" : 1,
+    "singles" : [ "salam (pop)" ],
+    "albums" : [ ],
+    "totalStreams" : 0,
+    "albumDetails" : [ ],
+    "singleDetails" : [ {
+      "title" : "salam",
+      "lyrics" : "lkjhgfdtryuilk.,\nlkjhgfdftrtyuikjn\n",
+      "genre" : "pop",
+      "releaseDate" : "121we345",
+      "comments" : [ ]
+    } ]
+  },
+  "sasa" : {
+    "age" : 12,
+    "password" : "1234!Asdf",
+    "email" : "test@test.com",
+    "username" : "sasa",
+    "name" : "sasa",
+    "songsCount" : 0,
+    "albumsCount" : 0,
+    "followersCount" : 0,
+    "singles" : [ ],
+    "albums" : [ ],
+    "totalStreams" : 0,
+    "albumDetails" : [ ],
+    "singleDetails" : [ ]
+  }
+}
