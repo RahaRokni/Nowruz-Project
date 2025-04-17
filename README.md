@@ -575,4 +575,130 @@ The Accounts class implements the User interface and represents a user account i
 
 * Minimum 8 characters (.{8,}$)
 
+# Admin
+This class represents an **Admin** user in a system that manages **accounts, song lyrics, and artist verification**. The Admin class extends the Accounts class, inheriting basic user properties (name, age, username, email, password) while adding administrative functionalities.
 
+1. **Class Definition** 
+
+    * Inherits from Accounts
+    
+    * Additional Admin-Specific Methods
+    
+2. **Constructor**
+
+    * super(): Calls the parent (Accounts) constructor to set the basic user details.
+    
+3. **Core Methods**
+
+    * approveLyricEdit()
+    
+        Approves a lyric edit request and updates the song lyrics.
+        
+    * rejectLyricEdit()
+    
+        Rejects a lyric edit request.
+        
+    * getUnverifiedArtists()
+        
+        Fetches all users (userRepo.findAll()).
+
+        Filters for users who are artists (isArtist()) but not verified (!isVerified()).
+
+        Returns the filtered list.
+        
+    * verifyArtist()
+    
+        Calls userRepo.verifyArtist() to mark the artist as verified.
+
+        Prints a confirmation message.
+        
+    
+# Regular
+
+This class represents a **Regular User** in a music-related system, extending the Accounts class and adding functionalities like **following artists, viewing lyrics, suggesting edits, searching content, and more.**
+    
+## Class Structure
+
+1. **Inheritance and Fields**
+
+    * Extends Accounts to inherit basic user properties
+
+    * Contains:
+
+        * regularInfo: User-specific data (following, requests)
+
+        * Collections of available music content
+        
+2. **Constructor**
+
+    * Initializes user account with parent constructor
+
+    * Creates empty collections for music content
+
+    * Sets up RegularInfo with username
+    
+3. **Core Methods**
+
+    * Artist Interaction
+    
+        * Manages artist following relationships
+
+        * Uses RegularInfo for persistence
+
+        * Includes validation and user feedback
+
+    * Content Viewing
+    
+        * Displays formatted content information
+
+        * Tracks song views via incrementViews()
+
+        * Null-checking for safety
+        
+
+# Artist
+
+The Artist class represents an artist account in the music application system, extending the base Accounts class. It provides specialized functionality for music creation, album management, and fan engagement.
+
+1. **Complete Music Management**:
+
+    * Single and album creation
+
+    * Song organization
+
+    * Metadata updates
+
+2. **Data Integrity**:
+
+    * Input validation
+
+    * Duplicate prevention
+
+    * Null safety
+
+3. **Performance Tracking**:
+
+    * Stream counts
+
+    * Follower metrics
+
+4. **Persistence Integration**:
+
+    * Bi-directional conversion with ArtistInfo
+
+    * Complete state restoration
+    
+    
+# Comment
+
+The Comment class represents a user comment on a song in the music application system. It handles comment data storage, formatting, and JSON serialization/deserialization.
+
+
+# Album
+
+The Album class represents a music album in the system, containing metadata (title, artist, release date, genre) and a list of tracks (Song objects).
+
+
+# Song
+
+The Song class represents a music track in the system, storing song metadata (title, artist, genre, release date), lyrics, view count, and user comments.
